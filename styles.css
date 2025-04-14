@@ -118,12 +118,6 @@ hr {
   align-items: center;
 }
 
-.first-paragraph::first-letter {
-  font-size: 6rem;
-  color: orangered;
-  float: left;
-  margin-right: 1rem;
-}
 
 .quote {
   color: #00beef;
@@ -174,7 +168,9 @@ li{
     list-style: none;
 }
 
-
+.brief-history2{
+  border-top: solid;
+}
 
 @media only screen and (max-width: 720px) {
   .image-wrapper {
@@ -197,7 +193,6 @@ li{
   .author,
   .quote,
   .list-title {
-   
     font-size: 1.8rem;
     text-align: center;
   }
